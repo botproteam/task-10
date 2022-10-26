@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+    <title>exercise 10</title>
+  </head>
+  <body>
+    <div class="calculator">
+      <div class="data">
+        <div class="container">
+          <div class="data__text">Bill</div>
+          <div class="input">
+            <img src="img/icon-dollar.svg" />
+            <input type="text" maxlength="26" placeholder="0" autofocus />
+          </div>
+        </div>
+        <div class="container">
+          <div class="data__text">Select Tip %</div>
+          <div class="box">
+            <button>5%</button>
+            <button>10%</button>
+            <button>15%</button>
+            <button>25%</button>
+            <button>50%</button>
+            <input
+              type="text"
+              maxlength="3"
+              max="100"
+              placeholder="Custom"
+              autofocus
+            />
+          </div>
+        </div>
+        <div class="container">
+          <div class="data__text">Number of People</div>
+          <div class="input">
+            <img src="img/icon-person.svg" />
+            <input type="text" maxlength="20" placeholder="0" autofocus />
+          </div>
+        </div>
+      </div>
+      <div class="result">
+        <div class="top">
+          <div class="amount">
+            <div class="text">
+              Tip Amount
+              <p>/ person</p>
+            </div>
+            <div class="numbers">$0.00</div>
+          </div>
+          <div class="amount">
+            <div class="text">
+              Total
+              <p>/ person</p>
+            </div>
+            <div class="numbers">$0.00</div>
+          </div>
+        </div>
+        <button class="reset">RESET</button>
+      </div>
+    </div>
+  </body>
+</html>

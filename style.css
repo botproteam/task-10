@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;700&display=swap");
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background: #bcdfe1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.calculator {
+  width: 760px;
+  height: 410px;
+  background: white;
+  border-radius: 25px;
+  display: flex;
+}
+.data {
+  width: 50%;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px 20px;
+}
+
+.box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+.box button {
+  width: 32%;
+  height: 50px;
+  margin: 2px;
+  font-size: 20px;
+  background: #00474b;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+}
+.box input {
+  background: #f3fafc;
+  color: #577472;
+  border: none;
+  width: 32%;
+  height: 50px;
+  margin: 2px;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+.box input:hover {
+  color: #00474b;
+  text-align: end;
+}
+.box button:hover {
+  background: #9fe8df;
+  color: #00474b;
+}
+.input {
+  width: 100%;
+  height: 40px;
+  display: flex;
+}
+.data__text {
+  color: #00474b;
+  font-family: Playfair Display;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+}
+.input input {
+  width: 100%;
+  height: 100%;
+  background: #f3f8fb;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 2px solid #f3f8fb;
+  text-align: end;
+}
+.input img {
+  position: absolute;
+  margin-left: 15px;
+  transform: translateY(65%);
+}
+input:focus {
+  outline: none;
+  border-color: red;
+}
+input:hover {
+  border-color: #5faba1;
+}
+.result {
+  width: 50%;
+  border-radius: 25px;
+  margin: 15px;
+  background: #00474b;
+  padding: 50px 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.amount {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.text {
+  color: white;
+  font-size: 18px;
+}
+.text p {
+  color: #609fa3;
+}
+.numbers {
+  color: #33bdad;
+  font-family: roboto;
+  font-size: 42px;
+  font-weight: 600;
+}
+.amount:last-child {
+  margin-top: 30px;
+}
+.reset {
+  border: none;
+  width: 100%;
+  height: 40px;
+  background: #0b686d;
+  color: #065e62;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: -10px;
+}
+.reset:hover {
+  background: #26c2ad;
+  color: #004a4b;
+}
